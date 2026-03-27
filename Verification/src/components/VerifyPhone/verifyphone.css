@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+.VerifyPhoneCont {
+  display: flex;
+  padding: 50px 20px 32px 20px;
+  align-items: center;
+  gap: 10px;
+  margin-top: 60px;
+  height: 0;
+}
+
+/* .VerifyPhone{
+    height: 0;
+} */
+
+.VerifyPhone > h1 {
+  color: var(--base-foreground, #fff);
+  font-family: "Akira";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: var(--font-weight-semibold, 800);
+  line-height: 100%; /* 18px */
+  letter-spacing: -0.18px;
+}
+
+.VerifyPhone > p {
+  color: var(--base-muted-foreground, #a9aaa9);
+  /* text-sm/leading-normal/normal */
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-normal, 400);
+  line-height: var(--text-sm-line-height, 20px); /* 142.857% */
+}
+
+.edit {
+  /* display: flex; */
+  color: var(--base-secondary, #d8ff83);
+  margin-top: 40px;
+  /* text-sm/leading-none/medium */
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: 100%; /* 14px */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-align: center;
+}
+
+.VerifyPhone > p > span {
+  color: var(--base-secondary, #d8ff83);
+
+  /* text-sm/leading-normal/normal */
+  font-family: var(--font-font-sans, "IBM Plex Sans");
+  font-size: var(--text-sm-font-size, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-normal, 400);
+  line-height: var(--text-sm-line-height, 20px);
+}
